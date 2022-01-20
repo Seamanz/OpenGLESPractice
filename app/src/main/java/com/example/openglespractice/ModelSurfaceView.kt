@@ -25,7 +25,7 @@ class ModelSurfaceView @JvmOverloads constructor(
         // Create an OpenGL ES 3.0 context
         setEGLContextClientVersion(3)
 
-        //使用配制透明背景生效
+        //使配制透明背景生效
         setZOrderOnTop(true)
         setEGLConfigChooser(8, 8, 8, 8, 16, 0)
         holder.setFormat(PixelFormat.RGBA_8888)
